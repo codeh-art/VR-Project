@@ -326,20 +326,31 @@ public class OVRPlayerController : MonoBehaviour
 
 			bool dpad_move = false;
 
-			if (OVRInput.Get(OVRInput.Button.DpadUp))
+			if (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad).x > 0)
 			{
-				moveForward = true;
-				dpad_move = true;
-
-			}
-
-			if (OVRInput.Get(OVRInput.Button.DpadDown))
-			{
-				moveBack = true;
+				moveRight = true;
 				dpad_move = true;
 			}
 
-			MoveScale = 1.0f;
+			if (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad).x < 0)
+            {
+				moveLeft = true;
+				dpad_move = true;
+			}
+
+            if (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad).y > 0)
+            {
+                moveForward = true;
+                dpad_move = true;
+            }
+
+            if (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad).y < 0)
+            {
+                moveBack = true;
+                dpad_move = true;
+            }
+
+            MoveScale = 1.0f;
 
 			if ((moveForward && moveLeft) || (moveForward && moveRight) ||
 				(moveBack && moveLeft) || (moveBack && moveRight))
