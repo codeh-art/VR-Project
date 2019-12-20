@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>C:\Program Files\Unity\Hub\Editor\2019.2.0f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -349,6 +347,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\guard.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\VrGrabber\Scripts\VrgDevice.cs" />
      <Compile Include="Assets\VrGrabber\Scripts\VrgFloatingObject.cs" />
@@ -374,6 +373,7 @@
      <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
      <None Include="Assets\Oculus\SampleFramework\license.txt" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
+     <None Include="Assets\Mega Fantasy Props Pack\README.txt" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />

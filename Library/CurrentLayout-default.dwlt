@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MinSize: {x: 679, y: 494}
+  m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 12
+  controlID: 46
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 731
-  m_MinSize: {x: 406, y: 494}
+  m_MinSize: {x: 404, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 13
+  controlID: 47
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 459
-  m_MinSize: {x: 406, y: 222}
-  m_MaxSize: {x: 8006, y: 4022}
+  m_MinSize: {x: 404, y: 222}
+  m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 68
+  controlID: 48
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 303
     height: 459
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 311
     height: 731
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -382,9 +382,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2c3a0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: f4ccffff04cdffff0ecdffff20cdffffb0e0ffffbae0ffff3ce4ffffe4e6ffff2ee7ffff50f5ffffd2f8ffff7afbffffba4c000006650000
+      m_SelectedIDs: 16befcff
+      m_LastClickedID: -213482
+      m_ExpandedIDs: 5818fdffc048feff78fbffff7afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -437,16 +437,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: a7351907c09ea1a448aff118630f7880
   m_Gizmos: 1
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.5622158, y: 0.82673174, z: -0.27517724}
+    m_Target: {x: 0.22731894, y: 2.1164393, z: 30.245754}
     speed: 2
-    m_Value: {x: 1.5622157, y: 0.82673174, z: -0.2751776}
+    m_Value: {x: 0.22731894, y: 2.1164393, z: 30.245754}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -467,28 +467,28 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.24383557, y: -0.20265447, z: 0.052277178, w: 0.94710827}
+    m_Target: {x: -0.087052934, y: -0.101472676, z: 0.008815811, w: -0.9910814}
     speed: 2
-    m_Value: {x: 0.24380246, y: -0.20262696, z: 0.05227008, w: 0.9469797}
+    m_Value: {x: -0.08704445, y: -0.10146278, z: 0.008814951, w: -0.9909848}
   m_Size:
-    m_Target: 7.2134495
+    m_Target: 9.684907
     speed: 2
-    m_Value: 7.21345
+    m_Value: 9.267854
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_SpeedNormalized: 0.49999997
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -531,7 +531,7 @@ MonoBehaviour:
     x: 303.2
     y: 73.6
     width: 920
-    height: 423
+    height: 440
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
@@ -572,20 +572,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Meshes
+    - Assets/Mega Fantasy Props Pack/Prefabs/Miscellaneous/Candels
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Meshes
+  - Assets/Mega Fantasy Props Pack/Prefabs/Miscellaneous/Candels
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Studies\S3\Mein\ARVR\Proj\VRProject\VR-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a420000
-    m_LastClickedID: 16922
-    m_ExpandedIDs: 000000002e330000f8380000dc3a0000f64700004448000044490000c0500000c2500000c4500000c6500000c8500000ca500000
+    scrollPos: {x: 0, y: 279}
+    m_SelectedIDs: 34050100
+    m_LastClickedID: 66868
+    m_ExpandedIDs: 000000002e330000d0360000e63a0000243d0000784400000c4800005a4800005a4900001451000016510000185100001a5100001c5100001e5100006268000066680000020501003a050100540501005e050100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,7 +613,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e330000f8380000dc3a0000bc420000f64700004448000044490000c0500000c2500000c4500000c6500000c8500000ca500000
+    m_ExpandedIDs: 000000002e330000d0360000e63a0000243d0000784400000c4800005a4800005a4900001451000016510000185100001a5100001c5100001e510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -657,7 +657,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -691,9 +691,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 533.60004
+    y: 532
     width: 1225
-    height: 252
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
